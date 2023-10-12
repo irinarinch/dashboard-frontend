@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  color: rgb(72, 71, 71);
+  display: flex;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  border: 1px  solid #131313;
+  border-radius: 5px;  
+  height: 500px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.instances-container {
+  width: 40%;
+  overflow-y: auto; 
+}
+
+.worklog-container {
+  width: 50%;
+  overflow-y: auto; 
+}
+
+button {
+  border: none;
+  background-color: inherit;  
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  margin: 10px auto;
+  text-decoration: underline;
+}
+
+.instances {
+  display: flex;
+  flex-direction: column;  
+}
+
+.instance {
+  border: 1px  solid #131313;
+  border-radius: 5px;   
+  margin-top: 15px;
+  padding: 5px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+img {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.status {
+  width: 60px;
+  display: inline-block;
+}
+
+.status-img {
+  width: 13px;
+  height: 13px;  
+}
+
+.actions {
+  width: 55px;
+  display: inline-block;
+}
+
+.status-msg {
+  color: black;
+  font-weight: bold;
+}
+
+.log-item {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.timestamp {
+  padding-bottom: 5px;
+}
+
+.action-img {
+  cursor: pointer;
+}
+
