@@ -9,7 +9,7 @@ import Instance from './Instance';
 export default class Widget {
   constructor() {
     this.widgetContainer = document.querySelector('.instances');
-    this.websocket = new WebSocket('ws://dashboard-backend-8cy1.onrender.com/');
+    this.websocket = new WebSocket('wss://dashboard-backend-8cy1.onrender.com/');
   }
 
   init() {
